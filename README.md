@@ -7,11 +7,11 @@ Read this ebook [Programming Javascript Applications](https://www.safaribooksonl
 ## Installation
 
 ```
-npm i -S create.reducer
+npm i -S @ikhsaan/create-reducer
 
 // or
 
-yarn add create.reducer
+yarn add @ikhsaan/create-reducer
 
 ```
 
@@ -22,7 +22,7 @@ otherwise use spread object instead
 
 ```javascript
 
-import createReducer from 'createreducer'
+import createReducer from '@ikhsaan/create-reducer'
 
 createReducer(INITIAL_STATE, {
  [FAILURE](state, { error }) {
