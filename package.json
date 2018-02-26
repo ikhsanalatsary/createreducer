@@ -1,6 +1,6 @@
 {
   "name": "@ikhsaan/create-reducer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creating reducer with object properties more object oriented by definition than traditional switch-case procedural without any dependencies",
   "main": "dist/index.js",
   "scripts": {
