@@ -2,8 +2,9 @@
   "name": "@ikhsaan/create-reducer",
   "version": "1.0.0",
   "description": "Creating reducer with object properties more object oriented by definition than traditional switch-case procedural without any dependencies",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "rm -rf dist/ && babel index.js -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,14 @@
     "create-reducer",
     "create.reducer"
   ],
+  "files": [
+    "README.md",
+    "dist/index.js"
+  ],
   "author": "Abdul Fattah Ikhsan <ikhsannetwork@gmail.com> (http://ikhsannetwork.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1"
+  }
 }
