@@ -1,4 +1,3 @@
-
 export default function createReducer(initialState, actions) {
   return (state = initialState, action) => {
     if (typeof actions[action.type] !== 'function') {
