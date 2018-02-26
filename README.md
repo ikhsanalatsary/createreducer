@@ -7,11 +7,11 @@ Read this ebook [Programming Javascript Applications](https://www.safaribooksonl
 ## Installation
 
 ```
-npm i createreducer
+npm i -S create.reducer
 
 // or
 
-yarn add createreducer
+yarn add create.reducer
 
 ```
 

@@ -1,7 +1,7 @@
 {
-  "name": "createreducer",
+  "name": "create.reducer",
   "version": "1.0.0",
-  "description": "Creating reducer with object properties more functional than traditional switch-case procedural",
+  "description": "Creating reducer with object properties more object oriented by definition than traditional switch-case procedural",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,8 @@
     "redux",
     "reducer",
     "createreducer",
-    "create-reducer"
+    "create-reducer",
+    "create.reducer"
   ],
   "author": "Abdul Fattah Ikhsan <ikhsannetwork@gmail.com> (http://ikhsannetwork.com/)",
   "license": "MIT"
